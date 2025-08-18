@@ -5,7 +5,7 @@ class Solution(object):
         :type t: str
         :rtype: bool
         """
-        i = 0  # pointer for s
+        i = 0  
         for c in t:
             if i < len(s) and c == s[i]:
                 i += 1
